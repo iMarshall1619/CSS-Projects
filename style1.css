@@ -1,0 +1,38 @@
+.search {
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 150, 150);
+    border: 1px solid rgb(0, 150, 150);
+    border-radius: 20px;
+    width: 7%;
+    height: 25px;
+    font-family: serif;
+    font-weight: bold;font-size: 14px;
+}
+
+.plus {
+    background-color: aquamarine;
+    color: white;
+    border: aquamarine;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.create {
+    background-color: rgb(56, 117, 231);
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    width: 9%;
+    height: 30px;
+    font-weight: lighter;
+}
+    body {
+    padding: 50px;
+    margin: 15px;
+
+}
+div + div {
+    margin-top: 10px;
+}

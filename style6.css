@@ -1,0 +1,29 @@
+.row {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align:;
+    font-display: ;
+    font-size: 30px;  
+} 
+.col , .col2 , .col3 {
+    height: 100px;
+    width: 250px;
+    background-color: teal;
+    flex: 1; 
+    padding: 0px 20px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.col2 {
+    flex: 2;
+}
+.col3 {
+    flex: 3;
+}
+.col+.col, .col+.col2, .col2+.col3 {
+    margin-left: 20px;
+}

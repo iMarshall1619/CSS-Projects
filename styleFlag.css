@@ -1,0 +1,35 @@
+body {
+    margin: 100px;
+}
+.main {
+    justify-content: ;
+}
+.red {
+    height: 100px;
+    width: 1000px;
+    background-color: red;
+}
+.black {
+    height: 200px;
+    width: 1000px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.green {
+    height: 100px;
+    width: 1000px;
+    background-color: green;
+}
+.moon {
+    color: 9760;
+}
+span {
+    margin: 50px;
+    color: white;
+    margin-left: 450px;
+    padding: 20px;  
+}
+.moon {
+    fill: white;
+}

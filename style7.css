@@ -1,0 +1,74 @@
+.container {
+    height: 200px;
+    width: 450px;
+    background-color: white;
+    border: 1px solid rgb(155, 155, 155);
+    
+}
+.col {
+    height: 50px;
+    width: inherit;
+    background-color: aqua;
+}
+.img1 {
+    height: 58px;
+    width: 58px;
+    position: fixed;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 50%;
+    left: 35px;
+    top: 28px;
+}
+.img2 {
+    height: 15px;
+    width: 15px;
+    position: fixed;
+    top: 182px;
+    left: 28px;
+}
+.img3 {
+    height: 15px;
+    width: 9px;
+    position: fixed;
+    top: 122px;
+    left: 28px;
+}
+.nam {
+    position: fixed;
+    left: 28px;
+    top: 60px;
+    font-size: 24px;
+} 
+.loc {
+    position: fixed;
+    left: 45px;
+    top: 100px;
+}
+.txt1 {
+    height: content;
+    width: content;
+    font-size: 12px;
+    font-weight: bold;
+    position: fixed;
+    left: 25px;
+    top: 140px;   
+}
+tr {
+    display: flex;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+}
+.th1 {
+    padding-right: 2px;
+}
+.th2 {
+    padding: 2px;
+    border-left: 1px solid black;
+} 
+#ed {
+    position: fixed;
+    top: 180px;
+    left: 48px;
+    
+}

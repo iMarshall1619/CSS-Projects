@@ -1,6 +1,6 @@
 .nav {
     height: 50px;
-    width: 1000px;
+    width: 100%;
     background-color: rgb(143, 143, 143);
     display:flex;
     justify-content: space-between;

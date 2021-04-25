@@ -20,17 +20,14 @@
     position: relative;
 }
 .nav-links {
-    width: ;
     color: white;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
     flex: 1;
     margin-right: 450px;
-    position: fixe;
 }
 .nav-links a{
     color: white;
-    font-weight: lighter;
+    font-weight: light;
 }
 .signOut button {
     background-color: rgb(8, 196, 196);
@@ -38,31 +35,27 @@
     border: 2px solid black;
     box-shadow: black 2px 2px 2px 2px;
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;
     margin-right: 270px;
     width: 150px;
     position: relative;  
-    }
+}
 .active {
     font-weight: bold;
 }
-.barrel1 {
+.barrel {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
 }
 .jar1 {
     height: 550px;
     width: 850px;
     background-color: white;
     border: 2px solid black;
-    margin-top: 15px;
 }
 .bag1 {
     height: 50%;
     width: inherit;
-    display: ;
 }
 .col {
     height: 175px;
@@ -80,7 +73,6 @@
 }
 .nam {
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
     margin-top: 100px;
     margin-left: 65px;
 }
@@ -96,33 +88,25 @@
 }
 .bag2 {
     height: 50%;
-    width: inherit;
-    display: 
-    
 }
 .txt1 {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 535px;
     margin-left: 50px;
     display: flex;
     flex-direction: column;
 }
-#th1 {
-    margin-left: px;
-}
 .edt {
     font-size: 20px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 600px;
-    left: 260px;
-    
+    left: 260px; 
 }
 .img2 {
-    width: 20px;
+    width: 25px;
     margin-right: 15px;
 }
 .jar2 {
@@ -138,7 +122,6 @@
     width: 800px;
     background-color: rgb(61, 61, 61);
     color: white;
-    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -146,7 +129,7 @@
 }
 .dojo {
     margin-left: 50px;
-    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
 }
 .coding {
     font-size: 40px;
@@ -155,21 +138,19 @@
 .date {
     font-size: 34px;
     margin-right: 275px;
-    margin-top: 5px;
+    margin-top: 10px;
     font-weight: lighter;
 }
 .triple {
     font-size: 26px;
     margin-left: 50px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .jar3 {
     height: 300px;
     width: 500px;
     background-color: white;
     border: 2px solid black;
-    margin-top: 15px;
-    display:   
 }
 .coBanner {
     height: 90px;
@@ -194,60 +175,48 @@
     height: 105px;
     width: 500px;
     display: flex;
+    justify-content: left;
     align-items: center;
     font-size: 30px;
-}
-.faceOne {
-    width: 75px;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin-left: 30px;
-}
-.todd {
-    margin-left: 50px;
-}
-.todRow2 {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 225px;
-}
-#accept {
-    width: 90px;
-    margin-left: 300px;
-}
-.philRow {
-    height: 105px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
+    padding-left: 40px;
 }
 .face {
     width: 75px;
     border: 1px solid white;
     border-radius: 50%;
+}
+.todd {
     margin-left: 30px;
 }
-.phil {
-    margin-left: 50px;
+#accOne {
+    width: 50px;
+    margin-left: 00px;
 }
-.philRow2 {
+#denOne {
+    width: 50px;
+    margin-left: 35px;
+}
+.yayNay1 , .yayNay2 {
     display: flex;
-    align-items: center;
-    position: absolute;
-    top: 330px;
-}
-#accept {
-    width: 90px;
+    padding: 20px;
     margin-left: 300px;
 }
+.yayNay1 {
+    position: absolute;
+    top: 235px;
+}
+.yayNay2 {
+    position: absolute;
+    top: 340px;
+}   
 .jar4 {
     height: 550px;
     width: 500px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
+    align-items: left;
+    justify-content: left;
 }
 .yoBan {
     height: 90px;
@@ -268,34 +237,6 @@
 .yoCon {
     margin-left: 40px;
 }
-.adrienRow {
-    height: 105px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-}
-.anneRow {
-    height: 105px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-}
-.alayneRow {
-    height: 105px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-}
-.arryRow {
-    height: 105px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-}
 .view {
     width: 470px;
     height: 50px;
@@ -315,15 +256,16 @@ div+div {
 }
 .jar1 +.jar2 {
     margin-top: 50px;
-    margin-right: 60px;
+    margin-right: 0px;
 }
 .jar3 +.jar4 {
     margin-top: 50px;
-    margin-right: 60px;
+    margin-right: 0px;
 }
 .mainContent {
+    width: 100%;
     display: flex;
-    justify-content: center;
     padding: 10px;
-    vertical-align: top;
+    margin-left: 200px;
+    margin-top: 25px;
 }

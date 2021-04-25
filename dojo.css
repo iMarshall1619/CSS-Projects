@@ -1,0 +1,40 @@
+.btn {
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 150, 150);
+    border: 1px solid rgb(0, 150, 150);
+    border-radius: 20px;
+    width: 7%;
+    height: 25px;
+    font-family: serif;
+    font-weight: bold;font-size: 14px;
+}
+.row {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align:;
+    font-display: ;
+    font-size: 30px;  
+} 
+.col {
+    height: 100px;
+    width: 250px;
+    background-color: teal;
+    flex: 1; 
+    padding: 0px 20px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(143, 143, 143);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+

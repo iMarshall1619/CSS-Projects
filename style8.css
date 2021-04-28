@@ -42,7 +42,7 @@
 .active {
     font-weight: bold;
 }
-.barrel {
+.barrel1 {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
     position: absolute;
     top: 200px;
 }
-.nam {
+#nam {
     font-size: 40px;
     margin-top: 100px;
     margin-left: 65px;
@@ -146,11 +146,18 @@
     margin-left: 50px;
     margin-top: 20px;
 }
+.barrel2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
 .jar3 {
     height: 300px;
     width: 500px;
     background-color: white;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
 }
 .coBanner {
     height: 90px;
@@ -161,7 +168,7 @@
     align-items: center;
     font-size: 30px;
 }
-.two {
+#two {
     width: 50px;
     margin-left: 40px;
     text-align: center;
@@ -180,6 +187,24 @@
     font-size: 30px;
     padding-left: 40px;
 }
+#todRow2 {
+    height: 105px;
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+#todRow3 {
+    height: 105px;
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    padding: 0px 20px;
+}
 .face {
     width: 75px;
     border: 1px solid white;
@@ -190,25 +215,16 @@
 }
 #accOne {
     width: 50px;
-    margin-left: 00px;
+    margin-left: 100px;
+}
+#accOne1 {
+    width: 50px;
+    margin-left: 115px;
 }
 #denOne {
     width: 50px;
     margin-left: 35px;
 }
-.yayNay1 , .yayNay2 {
-    display: flex;
-    padding: 20px;
-    margin-left: 300px;
-}
-.yayNay1 {
-    position: absolute;
-    top: 235px;
-}
-.yayNay2 {
-    position: absolute;
-    top: 340px;
-}   
 .jar4 {
     height: 550px;
     width: 500px;
@@ -227,7 +243,7 @@
     align-items: center;
     font-size: 30px;
 }
-.five {
+#five {
     width: 100px;
     margin-left: 40px;
     text-align: center;
@@ -262,10 +278,13 @@ div+div {
     margin-top: 50px;
     margin-right: 0px;
 }
+.barrel1 + .barrel2 {
+    margin-left: 90px;
+}
 .mainContent {
-    width: 100%;
     display: flex;
+    justify-content: center;
     padding: 10px;
-    margin-left: 200px;
+    margin-left:10%;
     margin-top: 25px;
 }

@@ -22,12 +22,12 @@
         </div>
     </div>
     <div class="mainContent">
-        <div class="barrel">
+        <div class="barrel1">
             <div class="jar1">
                 <div class="bag1">
                     <div class="col"></div>
                     <a><img class="img1" src="user-circle.png" alt="user-circle"></a>
-                    <h3 class="nam">John Doe</h3>
+                    <h3 id="nam">John Doe</h3>
                     <div class="loc">
                         <img class="img3" src="map-marker.png" alt="map-marker">
                         <h4>Las Vegas</h4>
@@ -38,7 +38,7 @@
                         <p id="th1">Brilliant | Unbeatable | Oderous</p>
                         <p id="th2">Marginally semi-unsuccessful</p>
                     </div>   
-                    <div class="edt">
+                    <div onclick="changeName()" class="edt">
                         <a><img class="img2" src="gear.png" alt="gear"></a>
                         <a id="ed" href="#">edit profile</a>
                     </div>
@@ -53,32 +53,28 @@
                 <p class="triple">Triple black belt in Python, MERN, and C# ...</p>       
             </div>
         </div>
-        <div class="barrel">
+        <div class="barrel2">
             <div class="jar3">
                 <div class="coBanner">
-                    <p class="two">2</p>
+                    <h4 id="two">2</h4>
                     <p class="conRe">Connection Requests</p>
                 </div>
-                <div class="todRow">
+                <div id="todRow2">
                     <img class="face" src="todd-s.jpg" alt="todd-s">
                     <p class="todd">Todd E</p>
+                    <a href="#"><img onclick="addMe()" id="accOne" src="accept-circle.png" alt="accept"></a>
+                    <a href="#"><img onclick="removeMe()" id="denOne" src="close-circle.png" alt="deny"></a>
                 </div>
-                <div class="todRow">
+                <div id="todRow3">
                     <img class="face" src="phil-s.jpg" alt="todd-s">
                     <p class="todd">Phil K</p>
-                </div>
-                <div class="yayNay1">
-                    <a href="#"><img id="accOne" src="accept-circle.png" alt="accept"></a>
-                    <a href="#"><img id="denOne" src="close-circle.png" alt="deny"></a>
-                </div>
-                <div class="yayNay2">
-                    <a href="#"><img id="accOne" src="accept-circle.png" alt="accept"></a>
-                    <a href="#"><img id="denOne" src="close-circle.png" alt="deny"></a>
+                    <a href="#"><img onclick="addMe2()" id="accOne1" src="accept-circle.png" alt="accept"></a>
+                    <a href="#"><img onclick="removeMe2()" id="denOne" src="close-circle.png" alt="deny"></a>
                 </div>
             </div>
             <div class="jar4">
                 <div class="yoBan">
-                    <p class="five">500+</p>
+                    <h4 id="five">500+</h4>
                     <p class="yoCon">Your Connection</p>
                 </div>
                 <div class="todRow">
@@ -100,6 +96,7 @@
                 <a class="view" href="#">View More</a>
             </div>
         </div> 
-    </div>   
+    </div>
+    <script src="script.js"></script>   
 </body>
 </html>
